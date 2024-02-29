@@ -11,9 +11,10 @@ const user2 = {
 class Usuario {
     constructor(name, age) {
         this.name = name;
-        this.age = age;
+        this.age;
     }
 }
+// outros tipos unknown, any, never
 const user3 = new Usuario("Rafael", 28);
 console.log(user);
 console.log(user2);
